@@ -1,0 +1,15 @@
+{
+  "name": "掘金助手",
+  "description": "优化掘金交互性, 增加高亮",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://juejin.cn/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
